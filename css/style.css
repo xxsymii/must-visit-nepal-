@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+    padding: o auto;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+.container{
+    width:80%;
+    display: block;
+}
+.clear{
+    clear: both;
+    display: block;
+}
+header{
+    padding: 20px 0;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: blue;
+}
+nav{
+    background-color: cornflowerblue;
+}
+.menu{
+    padding: 15px 0;
+}
+.menu a{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+}
