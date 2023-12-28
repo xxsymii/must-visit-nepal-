@@ -84,7 +84,7 @@ nav{
 .info{
     position: absolute;
     bottom: 0px;
-    left: 0px;
+    left: 130px;
     transform:translate(-50%, -50%);
     background-color: rgb(255, 255, 255);
     padding: 5px 5px;
@@ -127,12 +127,12 @@ nav{
 .box h4 a{
     position:absolute;
     top: 0px;
-    /* left: 0px; */
+    left: 0px;
     background-color: rgb(168, 168, 168);
     text-decoration: none;
     opacity: 0.59;
     color: black;
-    padding:20px 110px;
+    padding:20px 115px;
 }
 #newsletter{
     padding: 30px 0;
@@ -221,4 +221,70 @@ footer{
     text-align: left;
     padding-left: 5px;
 } */
+#content{
+    padding: 30px 0;
+}
+#content h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: crimson;
+    margin-bottom: 10px;
+}
+#content img{
+    text-align: left;
+    display: block;
+    margin: 20px 0
+}
+.days{
+    background-color: yellow;
+    color: white;
+    padding: 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.medium{
+    background-color: rgb(160, 253, 141);
+    color: white;
+    padding: 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.nature{
+    background-color: rgb(40, 140, 255);
+    color: white;
+    padding: 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.itinerary{
+    margin: 20px 0;
+}
+.itinerary h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 0;
 
+}
+.itinerary p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.book{
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    background-color: green;
+    border-radius: 5px;
+    display: inline-block;
+}
+.conatact_boxes{
+    display: flex;
+}
+.map,form{
+    width: 50%;
+}
